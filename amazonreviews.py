@@ -11,6 +11,7 @@ num_gpus_available = len(tf.config.experimental.list_physical_devices('GPU'))
 print("Num GPUs Available: ", num_gpus_available)
 #assert num_gpus_available > 0
 !pip install transformers
+!pip install transformers
 from transformers import DistilBertTokenizerFast
 from transformers import TFDistilBertForSequenceClassification
 import pandas as pd
